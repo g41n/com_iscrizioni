@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset>
+
+              <field name="id" type="text" default="0" label="COM_ISCRIZIONI_FORM_LBL_ISCRIZIONE_ID"
+            readonly="true" class="readonly"
+            description="JGLOBAL_FIELD_ID_DESC" /> 
+
+       <field name="createdate" type="text" size="40" class="inputbox"
+        
+            label="COM_ISCRIZIONI_FORM_LBL_ISCRIZIONE_CREATEDATE"
+            description="COM_ISCRIZIONI_FORM_DESC_ISCRIZIONE_CREATEDATE" 
+         default="CURRENT_TIMESTAMP" 
+        
+        
+        filter="safehtml" /> 
+
+       <field name="nome" type="text" size="40" class="inputbox"
+        
+            label="COM_ISCRIZIONI_FORM_LBL_ISCRIZIONE_NOME"
+            description="COM_ISCRIZIONI_FORM_DESC_ISCRIZIONE_NOME" 
+        
+        
+         required="true" 
+        filter="safehtml" /> 
+
+       <field name="cognome" type="text" size="40" class="inputbox"
+        
+            label="COM_ISCRIZIONI_FORM_LBL_ISCRIZIONE_COGNOME"
+            description="COM_ISCRIZIONI_FORM_DESC_ISCRIZIONE_COGNOME" 
+        
+        
+         required="true" 
+        filter="safehtml" /> 
+
+       <field name="nome_battaglia" type="text" size="40" class="inputbox"
+        
+            label="COM_ISCRIZIONI_FORM_LBL_ISCRIZIONE_NOME_BATTAGLIA"
+            description="COM_ISCRIZIONI_FORM_DESC_ISCRIZIONE_NOME_BATTAGLIA" 
+        
+        
+         required="true" 
+        filter="safehtml" /> 
+
+       <field name="foto" type="text" size="40" class="inputbox"
+        
+            label="COM_ISCRIZIONI_FORM_LBL_ISCRIZIONE_FOTO"
+            description="COM_ISCRIZIONI_FORM_DESC_ISCRIZIONE_FOTO" 
+        
+        
+        
+        filter="safehtml" /> 
+
+       <field name="data_nascita" type="calendar" class="inputbox"
+         required="true" 
+        
+         default="0000-00-00" 
+        
+            label="COM_ISCRIZIONI_FORM_LBL_ISCRIZIONE_DATA_NASCITA"
+            description="COM_ISCRIZIONI_FORM_DESC_ISCRIZIONE_DATA_NASCITA" 
+        filter="safehtml" /> 
+
+       <field name="luogo_nascita" type="text" size="40" class="inputbox"
+        
+            label="COM_ISCRIZIONI_FORM_LBL_ISCRIZIONE_LUOGO_NASCITA"
+            description="COM_ISCRIZIONI_FORM_DESC_ISCRIZIONE_LUOGO_NASCITA" 
+        
+        
+         required="true" 
+        filter="safehtml" /> 
+
+       <field name="via" type="text" size="40" class="inputbox"
+        
+            label="COM_ISCRIZIONI_FORM_LBL_ISCRIZIONE_VIA"
+            description="COM_ISCRIZIONI_FORM_DESC_ISCRIZIONE_VIA" 
+        
+        
+         required="true" 
+        filter="safehtml" /> 
+
+       <field name="comune" type="text" size="40" class="inputbox"
+        
+            label="COM_ISCRIZIONI_FORM_LBL_ISCRIZIONE_COMUNE"
+            description="COM_ISCRIZIONI_FORM_DESC_ISCRIZIONE_COMUNE" 
+        
+        
+         required="true" 
+        filter="safehtml" /> 
+
+       <field name="provincia" type="text" size="40" class="inputbox"
+        
+            label="COM_ISCRIZIONI_FORM_LBL_ISCRIZIONE_PROVINCIA"
+            description="COM_ISCRIZIONI_FORM_DESC_ISCRIZIONE_PROVINCIA" 
+        
+        
+         required="true" 
+        filter="safehtml" /> 
+
+       <field name="codice_fiscale" type="text" size="40" class="inputbox"
+        
+            label="COM_ISCRIZIONI_FORM_LBL_ISCRIZIONE_CODICE_FISCALE"
+            description="COM_ISCRIZIONI_FORM_DESC_ISCRIZIONE_CODICE_FISCALE" 
+        
+        
+         required="true" 
+        filter="safehtml" /> 
+
+       <field name="recapito_telefonico" type="text" size="40" class="inputbox"
+        
+            label="COM_ISCRIZIONI_FORM_LBL_ISCRIZIONE_RECAPITO_TELEFONICO"
+            description="COM_ISCRIZIONI_FORM_DESC_ISCRIZIONE_RECAPITO_TELEFONICO" 
+        
+        
+         required="true" 
+        filter="safehtml" /> 
+
+       <field name="recapito_email" type="text" size="40" class="inputbox"
+        
+            label="COM_ISCRIZIONI_FORM_LBL_ISCRIZIONE_RECAPITO_EMAIL"
+            description="COM_ISCRIZIONI_FORM_DESC_ISCRIZIONE_RECAPITO_EMAIL" 
+        
+        
+         required="true" 
+        filter="safehtml" /> 
+
+       <field name="percorso" type="text" size="40" class="inputbox"
+        
+            label="COM_ISCRIZIONI_FORM_LBL_ISCRIZIONE_PERCORSO"
+            description="COM_ISCRIZIONI_FORM_DESC_ISCRIZIONE_PERCORSO" 
+        
+        
+         required="true" 
+        filter="safehtml" /> 
+
+       <field name="gruppo" type="text" size="40" class="inputbox"
+        
+            label="COM_ISCRIZIONI_FORM_LBL_ISCRIZIONE_GRUPPO"
+            description="COM_ISCRIZIONI_FORM_DESC_ISCRIZIONE_GRUPPO" 
+        
+        
+         required="true" 
+        filter="safehtml" /> 
+
+       <field name="pagato" type="text" size="40" class="inputbox"
+        
+            label="COM_ISCRIZIONI_FORM_LBL_ISCRIZIONE_PAGATO"
+            description="COM_ISCRIZIONI_FORM_DESC_ISCRIZIONE_PAGATO" 
+        
+        
+         required="true" 
+        filter="safehtml" /> 
+
+       <field name="email_conferma" type="text" size="40" class="inputbox"
+        
+            label="COM_ISCRIZIONI_FORM_LBL_ISCRIZIONE_EMAIL_CONFERMA"
+            description="COM_ISCRIZIONI_FORM_DESC_ISCRIZIONE_EMAIL_CONFERMA" 
+        
+        
+         required="true" 
+        filter="safehtml" /> 
+
+       <field name="canc" type="text" size="40" class="inputbox"
+        
+            label="COM_ISCRIZIONI_FORM_LBL_ISCRIZIONE_CANC"
+            description="COM_ISCRIZIONI_FORM_DESC_ISCRIZIONE_CANC" 
+         default="0" 
+         validate="boolean" 
+        
+        filter="safehtml" /> 
+
+       <field name="privacy" type="text" size="40" class="inputbox"
+        
+            label="COM_ISCRIZIONI_FORM_LBL_ISCRIZIONE_PRIVACY"
+            description="COM_ISCRIZIONI_FORM_DESC_ISCRIZIONE_PRIVACY" 
+         default="0" 
+         validate="boolean" 
+         required="true" 
+        filter="safehtml" /> 
+
+       <field name="pubblicita" type="text" size="40" class="inputbox"
+        
+            label="COM_ISCRIZIONI_FORM_LBL_ISCRIZIONE_PUBBLICITA"
+            description="COM_ISCRIZIONI_FORM_DESC_ISCRIZIONE_PUBBLICITA" 
+        
+         validate="boolean" 
+         required="true" 
+        filter="safehtml" />
+
+	</fieldset>
+
+</form>
